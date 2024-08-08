@@ -185,7 +185,7 @@ nav ul li:last-child a {
 }
 
 /* about */
-.about .about-img {
+/* .about .about-img {
     position: relative;
 }
 
@@ -227,6 +227,18 @@ nav ul li:last-child a {
     width: 325px;
     height: 625px;
     z-index: -1;
+} */
+.about-img {
+    position: relative;
+}
+
+.about video {
+    border-radius: 200px;
+    object-fit: cover;
+    width: 325px;
+    height: 625px;
+    z-index: -1;
+    margin-left: 35% !important;
 }
 
 .about .about-img h2 {
@@ -235,9 +247,40 @@ nav ul li:last-child a {
     font-size: 22px;
     font-weight: 600;
     position: absolute;
-    top: 250px;
-    right: 10%;
+    top: 50%;
+    left: 45%;
+    transform: translateY(-50%);
+    z-index: 9;
 }
+.about .about-overlay1 {
+    position: absolute;
+    bottom: 50%;
+    left: -20px;
+    border-radius: 100px;
+    background-image: url('../images/about-1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 310px;
+    z-index: 99;
+    border: 10px solid white;
+}
+.about .about-overlay2 {
+    position: absolute;
+    bottom: -50px;
+    left: 100px;
+    border-radius: 100px;
+    background-image: url('../images/about-2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 310px;
+    border: 10px solid white;
+}
+
+
 
 .about-content {
     padding: 25px;
@@ -312,9 +355,11 @@ nav ul li:last-child a {
     height: 530px;
     z-index: 9;
 }
-.product .w-3{
+
+.product .w-3 {
     z-index: 99;
 }
+
 .product-title,
 .products-title {
     margin: 25px 0;
@@ -735,9 +780,11 @@ nav ul li:last-child a {
     height: 170px;
     z-index: 9 !important;
 }
-.Top-notch-btn{
+
+.Top-notch-btn {
     margin-top: 100px;
 }
+
 /* news  */
 .news {
     margin-top: 75px;
@@ -1053,9 +1100,5 @@ footer {
 
 
 nav ul li {
-    display: none;
-}
-
-.contect1 {
     display: none;
 }
