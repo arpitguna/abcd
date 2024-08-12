@@ -122,6 +122,15 @@ nav ul li:last-child a {
     transition: all 0.3s linear;
 }
 
+.menu-btn {
+    font-size: 25px;
+    color: white;
+    border: 2px solid white;
+    padding: 8px 10px;
+    border-radius: 5px;
+    display: none;
+}
+
 /* banner */
 .benner {
     background-image: url(../images/benner.jpg);
@@ -161,7 +170,7 @@ nav ul li:last-child a {
     top: 50%;
     left: 50%;
     transform: translateX(-50%);
-    z-index: 99;
+    z-index: 9;
     text-align: center;
     color: white;
 }
@@ -252,6 +261,7 @@ nav ul li:last-child a {
     transform: translateY(-50%);
     z-index: 9;
 }
+
 .about .about-overlay1 {
     position: absolute;
     bottom: 50%;
@@ -266,6 +276,7 @@ nav ul li:last-child a {
     z-index: 99;
     border: 10px solid white;
 }
+
 .about .about-overlay2 {
     position: absolute;
     bottom: -50px;
@@ -279,8 +290,6 @@ nav ul li:last-child a {
     height: 310px;
     border: 10px solid white;
 }
-
-
 
 .about-content {
     padding: 25px;
@@ -698,7 +707,6 @@ nav ul li:last-child a {
     line-height: 25px;
     font-weight: 400;
     color: #767676;
-    /* background-color: #f7c35f; */
 }
 
 /* Top-notch */
@@ -1083,22 +1091,4 @@ footer {
 .copyright .copy-link a {
     padding: 0 8px;
     border-right: 3px white solid;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-nav ul li {
-    display: none;
 }
